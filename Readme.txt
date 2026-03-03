@@ -102,8 +102,25 @@ Quick Sort
 Bogo Sort
 	- This is an impractical sorting algorithm that demonstrates how not to sort effectively. Fortunately, it does provide a lesson in verification functions (or verifiers). This algorithm checks if an array is sorted, and if the array is not sorted, the array gets shuffled until it is sorted. You can also implement bozo sort, which randomly swaps values instead of shuffling the whole array. Test your algorithm on a sorted array, a shuffled array, and a reversed array. Keep yours test arrays at a length greater than two, but less than five.   
 
+------------------------------------
+SECTION F - Files and Error Handling
+------------------------------------
+So this section is all about managing program resources. If your program needs information from a file, how would you process that information? There are lots of ways to manipulate files (even dangerously). Instead of doing any damage, you are going read to files, write to them, and deal with missing files. Further, you are going to write programs that are robust enough to handle bad input from users who write nonsense into the prompt.
+
+	Calculator
+		- Write a four function calculator that can do addition, subtraction, multiplication, and division. Ask the user for a number, operation, and number, then do the calculation and print it. Handle division by zero. Handle bad inputs, like "This is not a number", "Knight to e4", "3.213,234", or "@*&%". Also, round off insignificant figures.
+	
+	Name Shuffler
+		- Read a list of names from a file "names.txt", shuffle the names and overwrite the file with the shuffled names.
+		Handle a file that does not exist, like "thisisnotafile.txt". Observe your "names.txt" file before and after running this program. There is a "names.txt" file in source code directory.
+
+	Name Sorter
+		- Read a list of names from a file "names.txt", sort the names and overwrite the file with the sorted names.
+		Handle a file that does not exist, like "thisisnotafile.txt". Observe your "names.txt" file before and after running this program. There is a "names.txt" file in source code directory.
+
+
 ---------------------------
-SECTION F - Data Structures
+SECTION G - Data Structures
 ---------------------------
 A data structure is like a physical structure, except it is made of data instead. These are the puddings of computing, and a general term for "anything that is useful for organizing stuff in some way", even just throwing it all in a heap. So there are lots of data structures, like queues and stacks and trees and heaps. You can use object oriented programming to implement these (but Python is not great for that). Most of the time you can use arrays to implement these, if you prefer.
 
@@ -120,7 +137,7 @@ Heap Sort
 	- A heap is a specific kind of binary tree. First, the binary tree must be complete, such that if there is an even number of nodes, then every parent must have two children. A complete binary tree can have an odd number of nodes, if and only if the parent with one child is in the rightmost position, furthest from the root (and therefore at the largest index in an array) In a max heap, the largest value on the tree is stored in the root, and each parent node stores a value larger than its children. In a min heap, the root has the smallest value, and children have larger values. This is called the heap property, and a heapify function is used to maintain this property as the heap is manipulated (by adding or removing nodes). Use a max heap (or min heap) to sort an array of values. Test your algorithm on a sorted array, a shuffled array, and a reversed array.
 
 ---------------------------------
-SECTION G - Algorithm Comparisons
+SECTION H - Algorithm Comparisons
 ---------------------------------
 Which algorithm is faster? Which one should I use here? How do I decide? It is finally time to see time and space complexity in action. Hooray for efficiency.
 
@@ -133,7 +150,7 @@ Sort Compare
 	(Yes, I did that for a class. Yes, it was required, and it actually took six hours. My laptop was a Macbook and I have been reluctant to use one ever after. I added printed messages to see what was taking so long. It was bubble sort, an entire evening of bubble sort. After the first night, I saw the crash in the morning, and realized I would need to keep an eye on things the entire time. I added beeps and boops to the project so I could monitor it by ear while doing laundry, and watching the presidential debate. On the day the project was due, the other students were complaining that "bubble sort took thirty minutes to run". I said "it took six hours on my Mac", and so I won the complaint contest. I doubt the professor wanted me to spend all evening with bubble sort, and just did not imagine a modern (2020) laptop could actually take six hours to do any comparison sort.) 
 
 ----------------------------------
-SECTION H - Animation and Automata
+SECTION I - Animation and Automata
 ----------------------------------
 Now it is time to use two dimensional arrays and turtle graphics to put animations on a screen. (A two dimensional array is an array of smaller arrays.) We will be changing some of the settings on our turtle, so we can have more control over the screen.
 This can get pretty computationally intensive, so keep your computer on a flat surface, or elevated. Give the vents and fans the air they need. Make frequent backups of your work. You may need to revert to an older version of your code 
