@@ -1,9 +1,24 @@
-Code Redstart: Introduction to Computer Programming
+Code Redstart: Introduction to Computer Programming.
 Copyright Andrew Vella 2026. MIT License.
 
 These are the assignments in mind for crash course introduction to programming. The paramount goal of this crash course is to demonstrate that the computer is a machine you can use, and own. Modern computers are designed to make us forget the machine is a machine, and not a magical device, like a palantir from Lord of the Rings. Computers have a history, and a logic, that you can understand. Why should you learn programming? So you can use your computer without all of those noisy apps. Know the machine, own the machine, save money on apps and subscriptions for the machine. 
 
-This course features 30 assignments designed to practice the fundamentals of programming, from your first "Hello World!", through loops, functions, and structures, up to animating your own graphics. 
+This course features 30 assignments designed to practice the fundamentals of programming, from your first "Hello World!", through loops, functions, and structures, up to animating your own graphics. Here are a few good principles to keep in mind while programming:
+	
+	- Keep it simple
+		Do not write code for vague issues. Write code for the task at hand. Programming is the last thing you do.
+	- Keep it clean
+		Errors happen, and you can handle them. Do so, one at a time.
+	- Save your work
+		You will make a typo that breaks everything. That is ok, if you have a copy of the work before that typo.
+	- Seperate Tasks: Divide and Conquer
+		Do not write one big program for one big task. Write small programs for small tasks, and then use them to do the big task. 
+	- Read the Docs
+		Someone has encountered your problem before. Learn how they solved it, and apply what you learned to your own work.
+	- Comment the Whys
+		Do not describe what your code does. Describe why you wrote it. Delete code that does not pass the "why" test.
+	- Stuck? Take a break
+		Sometimes the problem is easier to solve after you get up, have a snack, drink water, and come back. You do not have to act like a computer.
 
 The answer key is written largely in python, with a bit of html. I did my best to implement everything myself, out of fairness to you. That said, there are plenty of websites with open source code to read, like GeeksforGeeks and W3. There are also plenty of good videos out there. This did not all come right off the dome!
 
